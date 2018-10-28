@@ -1,0 +1,198 @@
+Problem I
+
+A matrix of order 3X3 or m X n in general is shown below.
+
+4   5   8
+3   9   11
+7   3   6
+
+The same matrix is written out in a liner, vertical fashion, row by row is shown below.
+4
+5
+8
+3
+9
+11
+7
+3
+6 
+
+Take the case of 11. It is in the 2nd row and third column – or in general at (i, j) = (2, 3)
+When written in the liner fashion, 11 is the 6th element in the sequence, or in general Nth
+element
+
+Can you derive a formula for I and j and write a program for finding the i, j for the Nth element of the 
+liner sequence, given the order of the matrix is m X n? 
+OR 
+in other words, formulate i and j as a function of m, n and N
+ 
+i = f(m, n, N)
+j = f(m, n, N)
+
+
+Problem II
+This text represents the digital content extracted from an image by an OCR tool. Ignore the misspellings and control characters.
+
+
+Extract the all the dates, $amounts and lines containing other numbers from this following content which comes from an image to text conversion software:
+
+LINE OF CREDIT NOTE
+June 8,2016
+$90,000,00	Boston, Massachusetts
+         For value received, the undersigned FIRST DENTAL AT STATION LANDING, LLC, a 
+Massachusetts limited liability company, with an address of 8 Earhart Landing, Medford, 3 
+Massachusetts 02155 (the ’Borrower"), promises to pay to the order of xxx Bank, N.A., a 
+national banking association with an address of 34 State Street, Boston, Massachusetts 02709 
+(together with its successors and assigns, the "Bank"), the principal amount of Ninety Thousand 
+Dollars and Zero Cents 7 ($90,000.00), or, if less, such amount as may be the aggregate unpaid 
+principal amount of at) loans or advances made by the Bank to the Borrower pursuant hereto, on 
+or before June 8, 2026 (the "Maturity Date”), as set forth below, together wiih interest from 
+the date hereof on the unpaid principal balance from time lo lime outstanding until paid in 
+full. Unit! the Conversion Date (as hereinafter defined), the aggregate principal balance 
+outstanding shalf bear interest thereon at a per annum rate equal to One £ Percent (1.00%) 
+above the Prime Rate (as hereinafter defined). Effective on the Conversion Daie, tiig_ interest 
+rate payable on the aggregate principal balance outstanding shall be adjusted to a fixed rate 
+{the'J> "7 "Fixed Rate") equal to Four and One-Half Percent (4.50%) per annum.
+         This Note evidences a line of credit for the purpose of financing the cost of 
+leasehold improvements to the Borrower's current place of business. For Funded Leasehold 
+Improvements, advances shall be limited to a maximum of 100% of the invoices evidencing the 
+total cost of the leasehold improvements, acceptable to the Bank in its sole discretion, based 
+upon invoices or other evidence acceptable to the Bank.
+         Advances may be made from time to time until September 8, 2016 (the "Conversion 
+Date"). ^ Within the limits of time and amount set forth above and subject to the terms and 
+conditions set forth herein and In the other loan and security documents executed in connection 
+herewith, Borrower may borrow one or more advances hereunder provided, however, that amounts 
+repaid may not be reborrowed.
+         Prior to the Conversion Date, interest on the outstanding principal balance shall be 
+due and payable in arrears monthly commencing the month following the date of the first advance 
+on the 8th day . of each month. After the Conversion Date, this Note shall be repaid in equal 
+installments comprised of principal and interest (calculated by the Bank in the Bank's sole 
+discretion at the then applicable rate) based upon a 9 year 9 month amortization period 
+commencing on the Conversion Date, except that the last installment shall be due and payable on 
+the Maturity Date and shall be in an amount equal to the aggregate outstanding balance on the 
+Maturity Date.
+         Prime Rate means the rate per annum from time to time established by the Bank as the 
+Prime Rate and made available by the Bank at its main office or, in the discretion of the Bank, 
+the base, reference or other rate then designated by the Bank for general commercial ioan 
+reference puiposes, it being understood that such rate is a reference rate, not necessarily the 
+lowest, established from time to time, which serves as the basis upon which effective interest 
+rates are calculated for loans making reference Ihereto.
+         Prior to the Conversion Dale, the effective Interest rate applicable to the Borrower's 
+loans evidenced hereby shall change on the date of each change in the Prime Rate.
+         This Note is secured by ail collateral granted to the Bank by the Borrower or any 
+endorser or guarantor hereof or by any other party and shall be secured by any additional 
+collateral hereafter granted to the Bank by the Borrower or any endorser or guarantor hereof or 
+by any other party.
+        Principal and interest shall be payable at the Bank's main office or at such other 
+place as the Bank may designate in writing in immediately available funds in lawful money of 
+the United States of America without set-off, deduction or counterclaim, interest shall be 
+calculated on the basis of actual (0 number of days elapsed and a 360-day year.
+        This Note may be prepaid in whole or in part upon thirty (30) days prior written notice 
+to the Bank.
+In the event of any prepayment of this Note after the Conversion Date, whether by voluntary 
+prepayment, acceleration or otherwise, the Borrower shall, at the option of the Bank, pay a 
+“fixed rate prepayment charge" equal to the product of: (a) the principal amount prepaid and 
+(b) the percentage set forth In the table below for any prepayment made during the indicated 
+period. "Conversion Year" shall mean each one year period commencing on the Conversion Date or 
+on any anniversary of the Conversion Date.
+Percentage
+Conversion Year 1 Conversion Year 2 Conversion Year 3 Conversion Year 4 Conversion Year 5
+        After the last period indicated in the above table this Note may be prepaid in whole or 
+in part without any prepayment charge. Notwithstanding anything to the contrary contained 
+herein, no “fixed ratei prepayment charge” will be assessed if the prepaid amount to be applied 
+to the Note is derived wholly from the Borrower's own funds. However, should the Borrower 
+choose to refinance the Note with another financial institution the above referenced "fixed 
+rate prepayment charge" will be assessed for the period in which the Note was prepaid.
+        At the option of the Bank, this Note shall become immediately due and payable without 
+notice or demand upon the occurrence at any time of any of the following events of default 
+(each, an "Event of Default"): (1) default of any liability, obligation, covenant or 
+undertaking of the Borrower, any endorser or any guarantor hereof to the Bank, hereunder or 
+otherwise, including, without limitation, failure to pay in full and when due any Installment 
+of principal or interest or default of the Borrower, any endorser or any guarantor hereof under 
+any other loan document delivered by the Borrower, any endorser or any guarantor, or in 
+connection with the ioan evidenced by this Note or any other agreement by the Borrower, any 
+endorser or any guarantor with the Bank; (2) failure of the Borrower, any endorser or any 
+guarantor hereof to maintain aggregate collateral security value satisfactory to the Bank; (3) 
+default of any material liability, obligation or undertaking of the Borrower, any endorser or 
+any guarantor hereof to any other party; (4) if any statement, representation or warranty 
+heretofore, now or hereafter made by the Borrower, any endorser or any guarantor hereof in 
+connection with the loan evidenced by this Note or In any supporting financial statement of the 
+Borrower, any endorser or any guarantor hereof shall be determined by the Bank to have been 
+false or misleading in any material respect when made; (5) if the Borrower, any endorser or any 
+guarantor hereof is a corporation, trust, partnership or limited iiabSily company, the 
+liquidation, termination or dissolution of any such organization, or the merger or 
+consolidation of such organizaiion into another entity, or its ceasing to carry on actively its 
+present business or the appointment of a receiver for its properly; (6) the death of the 
+Borrower, any endorser or any guarantor hereof and, if the Borrower, any endorser or any 
+guarantor hereof is a partnership or limited liability company, the death of any partner or 
+member; (7) the institution by or against the Borrower, any endorser or any guarantor hereof of 
+any proceedings under the Bankruptcy Code 11 USC §101 ef sec/, or any other law In which the 
+Borrower, any endorser or any guarantor hereof is alleged to be insolvent or unable to pay Its 
+debts as they mature, or the making by the Borrower, any endorser or any guarantor hereof of an 
+assignment for the benefit of creditors or the granting by the Borrower, any endorser or any 
+guarantor hereof of a trust mortgage for the benefit of creditors; (8) (he service upon the 
+Bank of a writ in which the Bank Is named as trustee of the Borrower, any endorser or any 
+guarantor hereof; (9) a judgment or judgments for the payment of money shall be rendered 
+against the Borrower,
+any endorser or any guarantor hereof, and any such judgment shat! remain unsatisfied and in 
+effect for any period of thirty (30) consecutive days without a stay of execution; (10) any 
+levy, lien (including mechanics lien) except as permitted under any of the other ioan documents 
+between the Bank and the Borrower, seizure, attachment, execution or similar process shall be 
+issued or levied on any of the property of the Borrower, any endorser or any guarantor hereof; 
+(11) the termination or revocation of any guaranty hereof; or (12) the occurrence of such a 
+change in the condition or affairs (financial or otherwise) of the Borrower, any endorser or 
+any guarantor hereof, or the occurrence of any other event or circumstance, such that the Bank, 
+In its sole discretion, deems that it is insecure or that the prospects for timely or fuii 
+payment or performance of any obligation of the Borrower, any endorser or any guarantor hereof 
+to the Bank has been or may be Impaired,
+         Any payments received by the Bank on account of this Note shall, at the Bank's option, 
+be applied first, to accrued and unpaid interest; second, to the unpaid principal balance 
+hereof; third to any costs, expenses or charges then owed to the Bank by the Borrower; and the 
+balance to escrows, if any. Notwithstanding the foregoing, any payments received after (he 
+occurrence and during the continuance of
+an Event of Default shall be applied in such manner as the Bank may determine, The Borrower 
+hereby authorizes the Bank to charge any deposit account which the Borrower may maintain with 
+the Bank for any payment required hereunder without prior notice to the Borrower.
+         If pursuant to the terms of this Note, the Borrower is at any time obligated to pay 
+interest on the principal balance at a rate In excess of the maximum interest rate permitted by 
+applicable law for the loan evidenced by this Note, the applicable interest rate shall be 
+immediately reduced to such maximum rate and all previous payments in excess of the maximum 
+rate shall be deemed to have been payments In reduction of principal and not on account of the 
+interest due hereunder.
+         The Borrower represents to the Bank that the proceeds of this Note will not be used 
+for personal, family or household purposes or for the purpose of purchasing or carrying margin 
+stock or margin securities within the meaning of Regulations U and X of the Board of Governors 
+of the Federal Reserve System, 12 C.F.R. Parts 221 and 224.
+         The Borrower and each endorser and guarantor hereof grant to the Bank a continuing 
+lien on and security interest in arty and all deposils or oilier sums at any time credited by 
+or due from the Bank or any Bank Affiliate (as hereinafter defined) to the Borrower and/or each 
+endorser or guarantor hereof and any cash, securities, instruments or other property of the 
+Borrower and each endorser and guarantor hereof In the possession of the Bank or any Bank 
+Affiliate, whether for safekeeping or otherwise, or in transit to or from She Bank or any Bank 
+Affiliate (regardless of the reason the Bank or Bank Affiliate had received the same or whether 
+the Bank or Bank Affiliate has conditionally released the same) as security for the full and 
+punctual payment and performance of all of the liabilities and obligations of ihe Borrower 
+and/or any endorser or guarantor hereof to the Bank or any Bank Affiliate and such deposits and 
+other sums may be applied or set off against such liabilities and obligations of (he Borrower 
+or any endorser or guarantor hereof to the Bank or any Bank Affiliate at any time, whether or 
+not such are then due, whether or not demand has been made and whether or not other collateral 
+is then available to the Bank or any Bank Affiliate.
+         No delay or omission on the part of the Bank In exercising any right hereunder shall 
+operate as a waiver of such right or of any other right of the Bank, nor shall any delay, 
+omission or waiver on any one occasion be deemed a bar to or waiver of the same or any other 
+right on any future occasion. The Borrower and every endorser or guarantor of this Note, 
+regardless of the time, order or place of signing, waive presentment, demand, protest, notice 
+of intent to accelerate, notice of acceleration and all other notices of every kind in 
+connection with ihe delivery, acceptance, performance or enforcement of this Note and assent to 
+any extension or postponement of the time of payment or any other indulgence, to any 
+substitution, exchange or release of collateral, and to the addition or release of any other 
+party or person primarily or secondarily liable and waives all recourse to suretyship and 
+guarantor defenses generally, including any defense based on Impairment of collateral. To the 
+maximum extent permitted by law, the Borrower and each endorser and guarantor of this Note 
+waive and terminate any homestead rights and/or exemptions respecting any premises under the 
+provisions of any applicable homestead
+
+
+
+
+

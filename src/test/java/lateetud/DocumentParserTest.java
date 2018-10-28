@@ -38,6 +38,9 @@ public class DocumentParserTest {
 			}),
 			()-> assertThrows(IOException.class, ()->{
 				DocumentParser.extractAllAmounts(fakeFile);			
+			}),
+			()-> assertThrows(IOException.class, ()->{
+				DocumentParser.extractAllNumericValues(fakeFile);			
 			})
 		
 		);
